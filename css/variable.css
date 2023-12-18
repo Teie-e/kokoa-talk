@@ -1,0 +1,5 @@
+/*자주 쓰이는 것들을 변수 설정!*/
+:root {
+  --yellow: #fae100;
+  --defalut-border: solid 1px rgba(0, 0, 0, 0.3);
+}

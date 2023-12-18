@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Find - CoCoA Talk</title>
+    </head>
+    <body>
+        <div class="status-bar">
+        <div id="status-bar__column">
+            <span>No Service</span>
+            <iconify-icon
+            class="wifi-icon"
+            icon="material-symbols:wifi"
+            width="12"
+            height="12"
+            flip="horizontal"
+            ></iconify-icon>
+        </div>
+        <div class="status-bar__column">
+            <span>12:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>52%</span>
+            <iconify-icon
+            class="battery-icon"
+            icon="gg:battery"
+            width="20"
+            height="20"
+            flip="horizontal"
+            ></iconify-icon>
+            <iconify-icon
+            icon="tdesign:lighting-circle"
+            width="20"
+            height="20"
+            ></iconify-icon>
+        </div>
+        </div>
+
+        <header class="screen__header">
+            <h1 class="screen-header__title">Find</h1>
+            <div class="screen-header__icons ">
+                <span><iconify-icon icon="mingcute:search-line" width="22" height="22"></iconify-icon></span>
+                <span><iconify-icon icon="mdi:cog-outline" width="22" height="22"></iconify-icon></span>
+            </div>
+        </header>
+
+    
+        <main class="main-screen">
+            <div class="icon-row">
+                <div class="icon-row__icon"><iconify-icon icon="ri:qr-scan-line" width="40" height="40"></iconify-icon><span>QR 코드</span></div>
+                <div class="icon-row__icon"><iconify-icon icon="teenyicons:contact-outline" width="40" height="40"></iconify-icon><span>전화번호로<br> 추가하기</span></div>
+                <div class="icon-row__icon"><iconify-icon icon="la:orcid" width="40" height="40"></iconify-icon><span>ID로 추가하기</span></div>
+                <div class="icon-row__icon"><iconify-icon icon="quill:mail" width="40" height="40"></iconify-icon><span>Invate</span></div>
+            </div>
+            <div class="recommended-frineds">
+                <h6 class="recommended-frineds__title">추천 친구들</h6>
+                <span>추천 친구가 없어요.</span>
+            </div>
+            <div class="open-chat">
+                <div class="open-chat__header">
+                    <h4 class="open-chat__title">오픈 채팅</h4>
+                    <span>오픈 채팅 홈으로 가기</span>
+                    <iconify-icon icon="tabler:chevron-up" rotate="90deg"></iconify-icon>
+                </div>
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#BTS</h5>
+                    <h6 class="open-post__hashtags">#bts #army #friends</h6>
+                    <div class="open-post__members">
+                        <img src="img/avater.jpg" />
+                        <span class="open-post__members-count">1029 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img src="img/avater.jpg"/>
+                        <div class="open-post__heart-count">
+                            <iconify-icon icon="mdi:heart" width="24" height="24"></iconify-icon><span>319</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__btn ">
+                <a class="nav__link" href="friends.html">
+                    <iconify-icon icon="bx:user" width="40" height="40"></iconify-icon>
+                </a>
+                </li class="nav__btn">
+                <li>
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <iconify-icon
+                    icon="mingcute:comment-line"
+                    width="40"
+                    height="40"
+                    ></iconify-icon></a>
+                </li>
+                <li class="nav__btn">
+                <a class="nav__link" href="find.html"
+                    ><iconify-icon icon="mingcute:search-fill" width="40" height="40"></iconify-icon></a>
+                </li>
+                <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <div class="nav__ellipsis__nofi"></div>
+                    <iconify-icon
+                    icon="uit:ellipsis-h"
+                    width="40"
+                    height="40">
+                    </iconify-icon>
+                </a>
+                </li>
+            </ul>
+        </nav>
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    </body>
+</html>

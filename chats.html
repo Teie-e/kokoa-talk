@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Chats - CoCoA Talk</title>
+    </head>
+    <body>
+        <div class="status-bar">
+        <div id="status-bar__column">
+            <span>No Service</span>
+            <iconify-icon
+            class="wifi-icon"
+            icon="material-symbols:wifi"
+            width="12"
+            height="12"
+            flip="horizontal"
+            ></iconify-icon>
+        </div>
+        <div class="status-bar__column">
+            <span>12:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>52%</span>
+            <iconify-icon
+            class="battery-icon"
+            icon="gg:battery"
+            width="20"
+            height="20"
+            flip="horizontal"
+            ></iconify-icon>
+            <iconify-icon
+            icon="tdesign:lighting-circle"
+            width="20"
+            height="20"
+            ></iconify-icon>
+        </div>
+        </div>
+
+        <header class="screen__header">
+            <h1 class="screen-header__title">Chats</h1>
+            <div class="screen-header__icons ">
+                <span><iconify-icon icon="mingcute:search-line" width="22" height="22"></iconify-icon></span>
+                <span><iconify-icon icon="fluent:comment-add-20-regular" width="22" height="22"></iconify-icon></span>
+                <span><iconify-icon icon="majesticons:music-line" width="22" height="22"></iconify-icon></span>
+                <span><iconify-icon icon="mdi:cog-outline" width="22" height="22"></iconify-icon></span>
+            </div>
+        </header>
+
+    
+        <main class="main-screen">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/avater.jpg" class="user-component__avater user-component__avater">
+                    <div class="user-component__text">
+                        <h4 class="user-component__name">이재건</h4>
+                        <h6 class="user-component__comment">코코아톡 계정 정보를 확인해주세요.</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">11:47</span>
+                    <div class="badge">1</div>
+                </div>
+            </div> 
+          
+        </main>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__btn ">
+                <a class="nav__link" href="friends.html">
+                    <iconify-icon icon="bx:user" width="40" height="40"></iconify-icon>
+                </a>
+                </li class="nav__btn">
+                <li>
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <iconify-icon icon="mingcute:comment-fill" width="40" height="40"></iconify-icon>
+                </a>
+                </li>
+                <li class="nav__btn">
+                <a class="nav__link" href="find.html"
+                    ><iconify-icon
+                    icon="mingcute:search-line"
+                    width="40"
+                    height="40"
+                    ></iconify-icon
+                ></a>
+                </li>
+                <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <div class="nav__ellipsis__nofi"></div>
+                    <iconify-icon
+                    icon="uit:ellipsis-h"
+                    width="40"
+                    height="40">
+                    </iconify-icon>
+                </a>
+                </li>
+            </ul>
+        </nav>
+    
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    </body>
+</html>
